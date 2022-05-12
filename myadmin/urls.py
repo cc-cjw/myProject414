@@ -46,4 +46,7 @@ urlpatterns = [
     path('product/del/<int:pid>', product.delete, name="myadmin_product_del"),
     path('product/edit/<int:pid>', product.edit, name="myadmin_product_edit"),
     path('product/update/<int:pid>', product.update, name="myadmin_product_update"),
+
+
+    ###
 ]
